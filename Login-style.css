@@ -1,0 +1,97 @@
+﻿*{
+       margin: 0;
+       padding: 0;
+       font-family: Ariel, "Helvetica neue", Helavatica, sans-serif;
+       -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+       box-sizing: border-box;
+    }
+.login-box{
+        width: 400px;
+        background-color: black;
+        margin : 100px auto;
+        margin-top: 50px;
+        margin-bottom:  0px;
+        border:5px solid blue;
+        border-radius:25px;
+        box-shadow:10px 10px 5px indigo;
+
+    }
+
+.form-box{
+           padding: 25px;
+          }
+
+#headerlogin{
+                padding-top:10px ;
+                font-size:40px;
+                color:white;
+                position: absolute important!;
+            }
+
+  @media (max-width: 720px){
+            .login-box{
+                         width: 90%;
+                        
+            }
+        }
+
+  .inp{
+         width: 100%;
+         padding: 12px;
+         margin-bottom: 3px;
+         border: none;
+         border-radius: 5px;
+         font-size: 20px;
+         border-bottom: 2px solid #000;
+         color: #dc143c;
+        }
+
+        .inp:focus{
+                    outline: none;
+                    border-bottom: 2px solid #dc143c;
+                    color: #dc143c;
+        }
+
+.rem{
+         margin-bottom: 10px;
+         margin-top: 10px;
+         width: 20px;
+         height: 20px;
+       }
+
+.sub-btn{
+             padding: 12px;
+             width:100%;
+             border-radius: 5px;
+             background-color:blue;
+             border: 0;
+             box-sizing: border-box;
+             color: #fff;
+             cursor: pointer;
+             font-size: 20px;
+             border-bottom: 2px solid #000;
+             text-shadow: 1px 1px 1px #000;
+             
+
+    }
+        .sub-btn:hover{
+              background-color:green;
+        }
+        .sub-btn:focus{
+              outline: none;
+        } 
+
+.account{
+               margin-top: 10px;
+               text-align: center;
+               color: #fff;
+               font-size: 20px;
+               text-shadow: 0 2px 1px #000
+        }         
+
+body{
+     background-image:url("21.jpg");
+     background-repeat:no-repeat;
+     background-size:1400px 700px;
+}
